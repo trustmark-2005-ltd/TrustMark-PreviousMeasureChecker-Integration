@@ -6,6 +6,12 @@ First Published December 23
 
 The TrustMark Previous Measure Checker (PMC) is an API that is available to allow users to lookup measures that have been installed at a property by providing a Unique Property Reference Number (UPRN).
 
+### Measures
+
+The API will only return Lodged measures, meaning subsequent Lodgement Voids and Measure Amends will affect subsequent results, and point-in-time results will contain what is currently held with TrustMark.
+
+Measures of the same `Measure Category` as defined in the TrustMark Data Dictionary will only return the latest.
+
 ## Prerequisites
 
 You must request access to the API directly with TrustMark to obtain an API Key.
