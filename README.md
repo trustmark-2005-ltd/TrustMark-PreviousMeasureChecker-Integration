@@ -22,7 +22,7 @@ All API endpoints require an x-api-key which will be issued by TrustMark.
 
 ### POST /LookupUPRNs
 
-This endpoint allows you to lookup by UPRN and return a list of measures that have been installed at the property. The endpoint requires a JSON body containing the UPRN to lookup which can contain an array of upto 1000 UPRN values.
+This endpoint allows you to lookup by UPRN and return a list of measures that have been installed at the property. The endpoint requires a JSON body containing the UPRN to lookup which can contain an array of upto 100 UPRN values.
 
 #### Request
 
