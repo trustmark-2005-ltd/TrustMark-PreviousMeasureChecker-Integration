@@ -50,7 +50,6 @@ This endpoint allows you to lookup by UPRN and return a list of measures that ha
       },
       "propertyInformation": {
         "propertyType": "Flat",
-        "propertyTypeName": null,
         "propertyDetachment": "End-terrace",
         "propertyBedrooms": "3",
         "propertyAge": "B",
